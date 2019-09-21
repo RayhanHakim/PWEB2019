@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title> Rayhan Hakim Web </title>
+<head> <link rel="stylesheet" href="Quiz1.css"> </head>
+
+<body style="text-align: center">
+<h1> Welcome To MyWeb </h1>
+<h2> Hello Everyone My Name Is Rayhan Hakim </h2>
+<h2> If you want to check my profile, feel free to check it out on the panel down below </h2>
+
+<form method="get" action="Quiz1/Profile.html">
+    <button type="submit">Profile</button>
+</form>
+<p>  </p>
+<form method="get" action="Quiz1/Hometown.html">
+    <button type="submit">Hometown</button>
+</form>
+<p></p>
+<form method="get" action="Quiz1/Food.html">
+    <button type="submit">Food</button>
+</form>
+<p></p>
+<form method="get" action="Quiz1/Tourist.html">
+    <button type="submit">Tourist</button>
+</form>
+<p></p>
+
+<h4> You want to change the colour?? </h4>
+<button onclick = "gfg_Run()">  
+        Click here 
+    </button> 
+    <script> 
+            var el_up = document.getElementById("GFG_UP"); 
+            var el_down = document.getElementById("GFG_DOWN"); 
+            var str = "Click on button to change the background color"; 
+          
+            el_up.innerHTML = str; 
+          
+            function changeColor(color) { 
+                document.body.style.background = color; 
+            } 
+              
+            function gfg_Run() { 
+                changeColor('black'); 
+                el_down.innerHTML = "Background Color changed"; 
+            }          
+        </script>  
+</body>
+</html>

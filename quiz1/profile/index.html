@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title> My Profile </title>
+<head> <link rel="stylesheet" href="Profile.css"> </head>
+
+<body>
+<h1><center> Hello Everyone This Is My Profile </center></h1>
+<h2> Name : Muhammad Rayhan Hakim </h2>
+<h2> NRP : 05111740000160 </h2>
+<h2> Address : Apartement Puncak Kertajaya, Kertajaya Indah regency street, Sukolilo, Keputih, Surabaya, 60111 </h2>
+<h2> Hometown : Jakarta, South Jakarta, Petukangan </h2>
+<h2> Handphone Number : 081252360718 </h2>
+<h2> Hobby : Hangout, Sports, and of course do some gaming stuff </h2>
+<h2> Interest : Gaming, Coding </h2>
+
+<h4 style="color: azure"> You want to change the colour?? </h4>
+<button onclick = "gfg_Run()">  
+        Click here 
+    </button> 
+    <script> 
+            var el_up = document.getElementById("GFG_UP"); 
+            var el_down = document.getElementById("GFG_DOWN"); 
+            var str = "Click on button to change the background color"; 
+          
+            el_up.innerHTML = str; 
+          
+            function changeColor(color) { 
+                document.body.style.background = color; 
+            } 
+              
+            function gfg_Run() { 
+                changeColor('black'); 
+                el_down.innerHTML = "Background Color changed"; 
+            }          
+        </script>  
+</body>
+</html>
